@@ -80,7 +80,10 @@ p{
     font-size: 24px;
     font-weight: 800;
     margin:0;
-    color:hsl(0, 0%, 7%)
+    color:hsl(0, 0%, 7%);
+}
+.content-container h1:hover{
+    color: hsl(47, 88%, 63%);
 }
 .content-container .text{
   line-height: 25px;
@@ -104,7 +107,7 @@ p{
 }
 
 .footer-container img {
-    width: 32px;
+    max-width: 32px;
     height: 32px;
     padding-right: 10px;
 
