@@ -7,10 +7,14 @@
     color: hsl(228, 45%, 44%);
 }
 
+
+
+
 body {
     background-color: hsl(47, 88%, 63%);
     font-family: "Figtree", sans-serif;
     font-size: 16px;
+  
   
 }
 
@@ -27,6 +31,13 @@ span {
     padding: 4px 12px;
     border-radius: 4px;
     font-weight: 800;
+    
+    
+}
+p{
+    font-weight: light;
+    color: hsl(0, 0%, 42%);
+    
 }
 
 .card-container {
@@ -34,7 +45,9 @@ span {
     max-width: 384px;
     border: 2px solid #fff;
     padding: 24px;
-    border-radius: 10px;
+    border-radius: 20px;
+    border: 2px solid;
+    box-shadow: 10px 8px 0px rgba(0, 0, 0, 0.8), 10px 8px 0px rgba(0, 0, 0, 0.8);
     
 
 }
@@ -57,11 +70,21 @@ span {
     justify-content: center;
     align-items: start;
     max-width: 336px;
+    color:hsl(0, 0%, 42%);
+  
+ 
+  }
 
-}
 
 .content-container h1 {
-    font-size: 25px;
+    font-size: 24px;
+    font-weight: 800;
+    margin:0;
+    color:hsl(0, 0%, 7%)
+}
+.content-container .text{
+  line-height: 25px;
+  
 }
 
 .footer-container {
@@ -71,6 +94,12 @@ span {
     max-width: 336px;
     font-weight: 800;
 
+
+}
+.footer-container p{
+    font-weight: 800;
+    font-size: 14px;
+  
 
 }
 
